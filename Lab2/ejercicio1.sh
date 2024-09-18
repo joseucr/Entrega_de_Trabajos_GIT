@@ -9,6 +9,7 @@
 # Verifica que el usuario ingrese correctamente el ID del proceso
 if [ $# -ne 1 ]; then # Compara el numero de parametros esperados con 1
     echo "Ingrese el ID del proceso, ejemplo: $0 id"
+    exit 1 # Codigo de salida
 fi
    
 # Variable que contiene la ID del proceso del que desea optener las información
@@ -17,6 +18,7 @@ pid=$1
 # Verifica si el proceso con el ID dado existe, con el comando ps -p id, si encuentra un error lo redirecciona e imprime un mensaje
 if ! ps -p "$pid" > /dev/null; then
     echo "El proceso con ID $pid no existe."
+    exit 1 # Codigo de salida
 fi
 
 # Obtiene la información del proceso usando ps, luego se extrae la infomación que se solicita
