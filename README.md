@@ -1,2 +1,2 @@
-# Entrega_de_Trabajos_GIT
-Este repositorio contiene los laboratorios y proyectos asociados a la curso IE-0117 Programación Bajo Plataformas Abiertas
+# Ejercicio 2 del Laboratorio 2
+Este repositorio contiene el codigo utilizado para resolver el ejercicio 2
