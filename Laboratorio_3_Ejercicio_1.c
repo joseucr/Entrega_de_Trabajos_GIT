@@ -19,7 +19,7 @@ int main() {
     
     // Mensaje que explica el funcionamiento del programa al usuario
     printf("Con este programa puedes crear matrices cuadradas de orden nxn de numeros enteros");
-    printf("para luego ser utilizada en calculos como la suma de las diagonales");
+    printf(" para luego ser utilizada en calculos como la suma de las diagonales");
     
     // Pedir al usuario el tamaño de la matriz y lee su respuesta
     printf("\nIntroduce el tamaño de la matriz cuadrada: ");
@@ -114,7 +114,7 @@ int main() {
     
     // Operacion para calcular la suma de las diagonales
     sumaTotal = diagonalDerecha + diagonalIzquierda;
-    printf("Las suma de las dos diagonales es: %i", sumaTotal);
+    printf("Las suma de las dos diagonales es: %i\n", sumaTotal);
     
     // informa que el programa se ejecuto correctamente
     return 0;
